@@ -30,6 +30,9 @@ header > h1{
     padding-bottom: 20px;
     color: var(--color4);
 }
+header > nav{
+    height: 1000px;
+}
 header > nav > a{
     color: var(--color4);
     text-decoration: none;
@@ -62,7 +65,7 @@ div.ficha_tecnica{
     padding-left: 30px;
     background-image: url(imagens/predio.jpeg.jpeg);
     background-size: cover;
-    background-size: 600px;
+    background-size: 650px;
     background-position: right center;
     background-attachment: fixed;
     background-repeat: no-repeat;
