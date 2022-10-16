@@ -82,41 +82,39 @@ div#ficha_tecnica > p{
     text-align: left;
 }
 .img_img{
-    max-width: 1300px;
-    
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 #txt_lazer{
     color: var(--color3);
     margin-left: 35px;
-}
+}           
 .img_lazer{
-    display: inline-block;
     height: 400px;
     max-width: 400px;
     box-shadow: 1px 1px 10px black;
     margin-top: 20px;
-    margin-left: 30px;
     box-shadow: 1px 1px 5px rgb(255, 255, 255);
 }
 .img_lazer:hover{
     -moz-transform: scale(1.1);
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 div.plantas_apt{
+    display: flex;
+    justify-content: space-around;
     width: 100%;
     max-height: 1500px;
     background-color: white;
 }
 .coluna{
     display: flex;
-    display: inline-block;
     justify-content: space-around;
     height: 450px;
     max-width: 100%;
 }
 .img_planta{
-    
-    justify-content: space-around;
     max-width: 350px;
     max-height: 400px;
     box-shadow: 1px 1px 10px black;
@@ -126,7 +124,7 @@ div.plantas_apt{
 .img_planta:hover{
     -moz-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .local > ul > li{
     margin-left: 35px;
@@ -191,11 +189,22 @@ footer > p > a:hover{
 }
 @media screen and (max-width: 725px){
     header > nav > a{
-        display: block;
-        text-align: center;
+        display: flex;
+        justify-content: center;
     }
     header{
-        height: 400px;
+        height: 410px;
+    }
+    .img_img{
+        display: flex;
+        flex-direction: column;
+    }
+    div.plantas_apt{
+        display: flex;
+        flex-direction: column;
+    }
+    .ficha_tecnica > ul > li{
+        color: white;
     }
 }
 
