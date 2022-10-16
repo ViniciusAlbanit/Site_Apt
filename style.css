@@ -66,10 +66,11 @@ div.ficha_tecnica{
     padding-left: 30px;
     background-image: url(imagens/predio.jpeg.jpeg);
     background-size: cover;
-    background-size: 750px;
+    background-size: 780px;
     background-position: right center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    box-sizing: border-box;
 }
 .ficha_tecnica > ul > li{
     padding: 15px;
