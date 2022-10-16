@@ -21,7 +21,7 @@ body{
 }
 header{
     background-color: var(--color2);
-    max-height: 192px;
+    height: 192px;
     width: 100%;
     }
 header > h1{
@@ -31,21 +31,18 @@ header > h1{
     padding-bottom: 20px;
     color: var(--color4);
 }
-header > nav{
-    height: 1000px;
-}
 header > nav > a{
+    display: inline-block;
     color: var(--color4);
     text-decoration: none;
-    padding-right: 20px;
+    padding: 10px;
     margin-left: 20px;
 }
 header > nav > a:hover{
     color: var(--color1);
+    transform: translate(2px,2px);
     background-color: var(--color4);
-    padding: 10px;
     border-radius: 10px;
-    transition-delay: 0.5s;
     transition-duration: 0.5s;
 }
 main{
@@ -191,6 +188,15 @@ footer > p > a:hover{
 	animation-name: mouse;
   animation-duration: .7s;
 	animation-iteration-count: infinite;
+}
+@media screen and (max-width: 725px){
+    header > nav > a{
+        display: block;
+        text-align: center;
+    }
+    header{
+        height: 400px;
+    }
 }
 
 @keyframes mouse {
