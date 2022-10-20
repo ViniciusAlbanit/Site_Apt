@@ -92,7 +92,7 @@ div#ficha_tecnica > p{
 }           
 .img_lazer{
     height: 400px;
-    max-width: 400px;
+    width: 400px;
     box-shadow: 1px 1px 10px black;
     margin-top: 20px;
     box-shadow: 1px 1px 5px rgb(255, 255, 255);
@@ -118,7 +118,6 @@ div.plantas_apt{
     max-width: 350px;
     max-height: 400px;
     box-shadow: 1px 1px 10px black;
-    margin-left: 80px;
     margin-top: 17px;
 }
 .img_planta:hover{
@@ -188,9 +187,6 @@ footer > p > a:hover{
 	animation-iteration-count: infinite;
 }
 @media screen and (max-width: 725px){
-    body{
-        box-sizing: border-box;
-    }
     header > nav > a{
         display: flex;
         justify-content: center;
@@ -201,6 +197,15 @@ footer > p > a:hover{
     .img_img{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+    }
+    .img_lazer{
+        height: 300px;
+        width: 300px;
+    }
+    .img_planta{
+        height: 300px;
+        width: 300px;
     }
     div.plantas_apt{
         display: flex;
