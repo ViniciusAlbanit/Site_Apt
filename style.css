@@ -188,6 +188,9 @@ footer > p > a:hover{
 	animation-iteration-count: infinite;
 }
 @media screen and (max-width: 725px){
+    body{
+        box-sizing: border-box;
+    }
     header > nav > a{
         display: flex;
         justify-content: center;
