@@ -14,6 +14,9 @@
     --fonte2: 'Poppins', sans-serif;
     --fonte3: 'Source Code Pro', monospace;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: var(--fonte2);
     background-color: white;
