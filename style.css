@@ -85,10 +85,10 @@ div#ficha_tecnica > p{
     text-align: left;
 }
 .slide-externo{
-    width: 80vw;
-    height: 100vh;
+    width: 50vw;
+    height: 80vh;
     box-shadow: 0 0 10px black;
-    margin-left: 10vw;
+    margin-left: 25vw;
     overflow: hidden;
     box-sizing: border-box;
 }
@@ -100,7 +100,6 @@ div#ficha_tecnica > p{
     display: block;
     height: 100vh;
     width: 100%;
-/*                object-fit: cover;*/
 }
 #txt_lazer{
     color: var(--color3);
@@ -204,14 +203,9 @@ footer > p > a:hover{
     header{
         height: 410px;
     }
-    .img_img{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .img_lazer{
-        height: 300px;
-        width: 300px;
+    .slide-externo{
+        width: 80vw;
+        margin-left:10vw;
     }
     .img_planta{
         height: 300px;
